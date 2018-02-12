@@ -74,7 +74,7 @@ return (fexpr__20090.cljs$core$IFn$_invoke$arity$6 ? fexpr__20090.cljs$core$IFn$
 })();
 ntp.state.sync_times = (function ntp$state$sync_times(){
 var t0 = (new Date()).getTime();
-return ajax.core.GET.cljs$core$IFn$_invoke$arity$variadic("http://rest.ably.io/time",cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$handler,((function (t0){
+return ajax.core.GET.cljs$core$IFn$_invoke$arity$variadic("https://rest.ably.io/time",cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$handler,((function (t0){
 return (function (p__20091){
 var vec__20092 = p__20091;
 var r = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20092,(0),null);
