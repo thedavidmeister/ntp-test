@@ -13,7 +13,7 @@
    [adzerk/boot-reload "0.5.1"]
    [adzerk/boot-cljs "2.1.4"]
    [tailrecursion/boot-jetty  "0.1.3"]
-   [thedavidmeister/boot-github-pages "0.1.0-SNAPSHOT"]])
+   [thedavidmeister/boot-github-pages "0.1.0-SNAPSHOT"]
 
    ; ; util
    ; [thedavidmeister/wheel "0.2.0-SNAPSHOT"]
@@ -21,8 +21,8 @@
    ; ; logging
    ; [com.taoensso/timbre "4.10.0"]
    ;
-   ; ; networking
-   ; [cljs-ajax "0.6.0"]
+   ; networking
+   [cljs-ajax "0.7.3"]])
    ;
    ; ; data
    ; [funcool/cuerdas "2.0.3"]
