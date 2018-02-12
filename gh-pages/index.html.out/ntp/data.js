@@ -2,4 +2,4 @@
 goog.provide('ntp.data');
 goog.require('cljs.core');
 goog.require('cljs.core.constants');
-ntp.data.poll_interval = (3000);
+ntp.data.poll_interval = (6000);
