@@ -3,6 +3,7 @@
   ntp.math
   ajax.core
   ntp.data
+  [hoplon.core :as h]
   [javelin.core :as j]))
 
 ; Client's timestamp of request.
@@ -35,5 +36,5 @@
     (fn [[r]]
      (set-times!
       t0 r r (.getTime (js/Date.))))
-    :finally #(h/set-timeout ntp.data/poll-interval (sync-times))})))
+    :finally #(h/with-timeout ntp.data/poll-interval (sync-times))})))
 (sync-times)

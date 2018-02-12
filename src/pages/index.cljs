@@ -7,6 +7,12 @@
 (h/html
  (h/body
   (h/div
+   "SNTP time:"
    (j/with-let [t (j/cell nil)]
     (h/with-interval
-     0 (reset! t (ntp.core/server-now)))))))
+     0 (reset! t (ntp.core/server-now)))))
+  (h/div
+   "Local time:"
+   (j/with-let [t (j/cell nil)]
+    (h/with-interval
+     0 (reset! t (.getTime (js/Date.))))))))
