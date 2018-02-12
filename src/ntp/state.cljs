@@ -31,7 +31,7 @@
  []
  (let [t0 (.getTime (js/Date.))]
   (ajax.core/GET
-   "http://rest.ably.io/time"
+   "https://rest.ably.io/time"
    {:handler
     (fn [[r]]
      (set-times!
