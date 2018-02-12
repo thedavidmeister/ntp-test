@@ -1,3 +1,3 @@
 (ns ntp.data)
 
-(def poll-interval 3000)
+(def poll-interval 6000)
